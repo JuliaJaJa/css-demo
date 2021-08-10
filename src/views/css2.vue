@@ -10,7 +10,7 @@
   
 </template>
 
-<style lang="less">
+<style lang="less" scoped>
 .container {
   text-align: center;
   line-height: 200px;

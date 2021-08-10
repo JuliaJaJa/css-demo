@@ -27,6 +27,8 @@
   background-color: #FDE6CC;
 }
 .nav-a {
+  // width: 200px;
+  // box-sizing: border-box;
   display: block;
   margin: 0 10px;
   padding: 9px 10px;

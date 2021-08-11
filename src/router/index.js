@@ -3,7 +3,7 @@
  * @Author: huyi2
  * @Date: 2021-08-09 16:12:12
  * @LastEditors: huyi2
- * @LastEditTime: 2021-08-10 19:52:14
+ * @LastEditTime: 2021-08-11 17:48:48
  */
 import Vue from 'vue'
 import Router from 'vue-router'
@@ -41,6 +41,36 @@ export default new Router({
       path: '/css6',
       name: 'css6',
       component: () => import('@/views/css6')
+    },
+    {
+      path: '/css7',
+      name: 'css7',
+      component: () => import('@/views/css7')
+    },
+    {
+      path: '/css8',
+      name: 'css8',
+      component: () => import('@/views/css8')
+    },
+    {
+      path: '/css9',
+      name: 'css9',
+      component: () => import('@/views/css9')
+    },
+    {
+      path: '/css10',
+      name: 'css10',
+      component: () => import('@/views/css10')
+    },
+    {
+      path: '/css11',
+      name: 'css11',
+      component: () => import('@/views/css11')
+    },
+    {
+      path: '/css12',
+      name: 'css12',
+      component: () => import('@/views/css12')
     }
   ]
 })

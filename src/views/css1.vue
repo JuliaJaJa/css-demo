@@ -18,7 +18,6 @@
 <style lang="less" scoped>
 .container {
   width: 240px;
-  margin: 0 auto;
 }
 .width {
   width: 100%;

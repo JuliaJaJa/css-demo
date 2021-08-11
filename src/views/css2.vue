@@ -15,7 +15,6 @@
   text-align: center;
   line-height: 200px;
   .block1 {
-    margin: 0 auto;
     width: 200px !important;
     max-width: 150px;
     height: 200px !important;
@@ -24,7 +23,6 @@
     background: pink;
   }
   .block2 {
-    margin: 0 auto;
     width: 200px !important;
     max-width: 150px;
     min-width: 300px;

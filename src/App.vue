@@ -3,7 +3,7 @@
  * @Author: huyi2
  * @Date: 2021-08-09 16:12:12
  * @LastEditors: huyi2
- * @LastEditTime: 2021-08-11 17:49:44
+ * @LastEditTime: 2021-08-11 19:29:44
 -->
 <template>
   <div id="app" class="app">
@@ -14,8 +14,8 @@
       <router-link class="title_item" to="/css4">4、content-替换元素</router-link>
       <router-link class="title_item" to="/css5">5、padding</router-link>
       <router-link class="title_item" to="/css6">6、margin合并</router-link>
-      <router-link class="title_item" to="/css7">7</router-link>
-      <router-link class="title_item" to="/css8">8</router-link>
+      <router-link class="title_item" to="/css7">7、margin:auto</router-link>
+      <router-link class="title_item" to="/css8">8、border绘制图形</router-link>
       <router-link class="title_item" to="/css9">9</router-link>
       <router-link class="title_item" to="/css10">10</router-link>
       <router-link class="title_item" to="/css11">11</router-link>

@@ -3,7 +3,7 @@
  * @Author: huyi2
  * @Date: 2021-08-09 16:12:12
  * @LastEditors: huyi2
- * @LastEditTime: 2021-08-11 17:48:48
+ * @LastEditTime: 2021-08-11 21:18:09
  */
 import Vue from 'vue'
 import Router from 'vue-router'
@@ -71,6 +71,26 @@ export default new Router({
       path: '/css12',
       name: 'css12',
       component: () => import('@/views/css12')
+    },
+    {
+      path: '/css13',
+      name: 'css13',
+      component: () => import('@/views/css13')
+    },
+    {
+      path: '/css14',
+      name: 'css14',
+      component: () => import('@/views/css14')
+    },
+    {
+      path: '/css15',
+      name: 'css15',
+      component: () => import('@/views/css15')
+    },
+    {
+      path: '/css16',
+      name: 'css16',
+      component: () => import('@/views/css16')
     }
   ]
 })

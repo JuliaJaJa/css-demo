@@ -3,7 +3,7 @@
  * @Author: huyi2
  * @Date: 2021-08-09 16:12:12
  * @LastEditors: huyi2
- * @LastEditTime: 2021-08-11 19:29:44
+ * @LastEditTime: 2021-08-11 21:20:12
 -->
 <template>
   <div id="app" class="app">
@@ -16,10 +16,14 @@
       <router-link class="title_item" to="/css6">6、margin合并</router-link>
       <router-link class="title_item" to="/css7">7、margin:auto</router-link>
       <router-link class="title_item" to="/css8">8、border绘制图形</router-link>
-      <router-link class="title_item" to="/css9">9</router-link>
-      <router-link class="title_item" to="/css10">10</router-link>
+      <router-link class="title_item" to="/css9">9、ex</router-link>
+      <router-link class="title_item" to="/css10">10、line-height</router-link>
       <router-link class="title_item" to="/css11">11</router-link>
       <router-link class="title_item" to="/css12">12</router-link>
+      <router-link class="title_item" to="/css13">13</router-link>
+      <router-link class="title_item" to="/css14">14</router-link>
+      <router-link class="title_item" to="/css15">15</router-link>
+      <router-link class="title_item" to="/css16">16、display与visibility</router-link>
     </div>
     <div class="content">
       <router-view/>
@@ -37,6 +41,7 @@ export default {
 .app {
   .title {
     display: flex;
+    flex-wrap: wrap;
     padding: 30px;
     &_item {
       margin: 10px;

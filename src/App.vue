@@ -3,7 +3,7 @@
  * @Author: huyi2
  * @Date: 2021-08-09 16:12:12
  * @LastEditors: huyi2
- * @LastEditTime: 2021-08-11 21:20:12
+ * @LastEditTime: 2021-08-12 11:20:11
 -->
 <template>
   <div id="app" class="app">
@@ -18,7 +18,7 @@
       <router-link class="title_item" to="/css8">8、border绘制图形</router-link>
       <router-link class="title_item" to="/css9">9、ex</router-link>
       <router-link class="title_item" to="/css10">10、line-height</router-link>
-      <router-link class="title_item" to="/css11">11</router-link>
+      <router-link class="title_item" to="/css11">11、float</router-link>
       <router-link class="title_item" to="/css12">12</router-link>
       <router-link class="title_item" to="/css13">13</router-link>
       <router-link class="title_item" to="/css14">14</router-link>

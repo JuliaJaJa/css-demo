@@ -3,7 +3,7 @@
  * @Author: huyi2
  * @Date: 2021-08-09 16:12:12
  * @LastEditors: huyi2
- * @LastEditTime: 2021-08-12 14:03:51
+ * @LastEditTime: 2021-08-12 16:47:54
 -->
 <template>
   <div id="app" class="app">
@@ -20,9 +20,9 @@
       <router-link class="title_item" to="/css10">10、line-height</router-link>
       <router-link class="title_item" to="/css11">11、float</router-link>
       <router-link class="title_item" to="/css12">12、position:absolute</router-link>
-      <router-link class="title_item" to="/css13">13</router-link>
-      <router-link class="title_item" to="/css14">14</router-link>
-      <router-link class="title_item" to="/css15">15</router-link>
+      <router-link class="title_item" to="/css13">13、position:relative</router-link>
+      <router-link class="title_item" to="/css14">14、position:fixed</router-link>
+      <router-link class="title_item" to="/css15">15、z-index</router-link>
       <router-link class="title_item" to="/css16">16、display与visibility</router-link>
     </div>
     <div class="content">

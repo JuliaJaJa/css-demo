@@ -3,17 +3,16 @@
  * @Author: huyi2
  * @Date: 2021-08-11 17:46:40
  * @LastEditors: huyi2
- * @LastEditTime: 2021-08-12 11:15:55
+ * @LastEditTime: 2021-08-13 16:04:55
 -->
 <template>
   <div class="container">
     <h4>10-1</h4>
-    <h4>div高度是由行高决定的，而非文字。</h4>
+    <h4>div的高度是由文字撑起来的吗？div高度是由行高决定的，而非文字。</h4>
     <div class="lineHeight">高度</div>
     <br/>
     <div class="lineHeight2">高度</div>
     <h4>非替换内联元素</h4>
-    <!-- <span class="lineHeight3">内容高度</span> -->
     <h4>10-2 幽灵空白节点导致</h4>
     <div class="box"> 
       <span class="box_span">内容...</span> 
@@ -21,8 +20,10 @@
     <div class="box2"> 
       <span class="box_span2">内容...</span> 
     </div>
+    <h4>line-height: 32px，为什么高度不是32px？</h4>
     <div class="box3"> 
-      x<span class="box_span3">文字内容x</span> 
+      <!-- x<span class="box_span3">文字内容x</span>  -->
+      <span class="box_span3">文字内容</span> 
     </div>
     <h4>10-3 vertical-align 的百分比值是相对于 line-height 计算的</h4>
     <div class="box4"> 

@@ -3,11 +3,11 @@
  * @Author: huyi2
  * @Date: 2021-08-10 19:57:00
  * @LastEditors: huyi2
- * @LastEditTime: 2021-08-11 14:52:05
+ * @LastEditTime: 2021-08-13 14:46:05
 -->
 <template>
   <div class="container">
-    <br/>
+    <h4>css尺寸，html尺寸，固有尺寸的含义？</h4>
     <div>
       <p>如果没有 CSS 尺寸和 HTML 尺寸，则使用固有尺寸作为最终的宽高(200*200)</p>
       <img src="@/assets/logo.png" alt="vue_logo">

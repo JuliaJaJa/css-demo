@@ -3,7 +3,7 @@
  * @Author: huyi2
  * @Date: 2021-08-10 19:57:11
  * @LastEditors: huyi2
- * @LastEditTime: 2021-08-11 17:42:23
+ * @LastEditTime: 2021-08-13 15:30:25
 -->
 <template>
   <div class="container">
@@ -22,11 +22,21 @@
     <div class="father2"> 
       <div class="son2"></div>
     </div>
+
+    <h4>创建bfc 防止margin合并</h4>
+    <p class="block">第一行</p>
+    <div class="bfc">
+      <p class="block2">第二行</p>
+    </div>
+    
   </div>
 </template>
 
 <style lang="less" scoped>
 .container {
+  .bfc {
+    overflow: hidden;
+  }
   .block {
     text-align: center;
     line-height: 50px;
